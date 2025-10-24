@@ -1,6 +1,7 @@
 package com.example;
 
 import java.io.FileWriter;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -40,8 +41,11 @@ public class writeToJSON {
 
     public static void outputDataToJSON(List<resultMST> resultGraphs) {
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
+        Map<String, Object> wrapper = new HashMap<>();
+        wrapper.put("results", resultGraphs);
+
         try (FileWriter writer = new FileWriter("assign3_output.json")) {
-            gson.toJson(resultGraphs, writer);
+            gson.toJson(wrapper, writer);
         } catch (Exception e) {
             e.printStackTrace();
         }
