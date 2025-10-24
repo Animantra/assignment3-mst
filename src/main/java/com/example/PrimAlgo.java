@@ -5,6 +5,8 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.PriorityQueue;
 
+import com.example.Graphs.Edge;
+
 public class PrimAlgo {
 
     private static int cost;
@@ -28,8 +30,8 @@ public class PrimAlgo {
 
         
         for (Edge e : edges) {
-            graph.get(e.u).add(new Edge(e.u, e.v, e.w));
-            graph.get(e.v).add(new Edge(e.v, e.u, e.w));
+            graph.get(e.getU()).add(new Edge(e.getU(), e.getV(), e.getW()));
+            graph.get(e.getV()).add(new Edge(e.getV(), e.getU(), e.getW()));
             operationCount += 2;
         }
 
@@ -38,7 +40,7 @@ public class PrimAlgo {
         
         boolean[] mstSet = new boolean[n];
 
-        PriorityQueue<Edge> pq = new PriorityQueue<>(Comparator.comparingInt(e->e.w));
+        PriorityQueue<Edge> pq = new PriorityQueue<>(Comparator.comparingInt(e->e.getW()));
 
 
         mstSet[0] = true;
@@ -53,19 +55,19 @@ public class PrimAlgo {
             Edge curEdge = pq.poll();
             operationCount++;
 
-            if(mstSet[curEdge.v]){
+            if(mstSet[curEdge.getV()]){
                 operationCount++;
                 continue;
             }
 
-            mstSet[curEdge.v] = true;
-            cost += curEdge.w;
+            mstSet[curEdge.getV()] = true;
+            cost += curEdge.getW();
             mstEdges.add(curEdge);
             operationCount += 2;
 
-            for(Edge e : graph.get(curEdge.v)){
+            for(Edge e : graph.get(curEdge.getV())){
                 operationCount++;
-                if(!mstSet[e.v]){
+                if(!mstSet[e.getV()]){
                     pq.add(e);
                     operationCount++;
                 }

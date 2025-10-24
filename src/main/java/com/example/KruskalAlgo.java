@@ -3,6 +3,8 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
+import com.example.Graphs.Edge;
+
 
 public class KruskalAlgo {
 
@@ -17,7 +19,7 @@ public class KruskalAlgo {
 
         long startTime=System.nanoTime();
 
-        edges.sort(Comparator.comparingInt(e -> e.w));
+        edges.sort(Comparator.comparingInt(e -> e.getW()));
         operationCount++;
 
 
@@ -27,10 +29,10 @@ public class KruskalAlgo {
 
 
         for(Edge edge : edges){
-            if(dsu.find(edge.u) != dsu.find(edge.v)){
+            if(dsu.find(edge.getU()) != dsu.find(edge.getV())){
                 operationCount +=2;
-                dsu.union(edge.u,edge.v);
-                cost += edge.w;
+                dsu.union(edge.getU(),edge.getV());
+                cost += edge.getW();
                 mstEdges.add(edge);
                 count++;
                 operationCount +=3;
@@ -49,15 +51,15 @@ public class KruskalAlgo {
         return cost;
     }
 
-    public List<Edge> getMST(){
+    public static List<Edge> getMST(){
         return new ArrayList<>(mstEdges);
     }
 
-    public int getOC(){
+    public static int getOC(){
         return operationCount;
     }
 
-    public double getTime(){
+    public static double getTime(){
         return timeMs;
     }
 
