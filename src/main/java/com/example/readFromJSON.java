@@ -32,7 +32,7 @@ public class readFromJSON {
         }
     }
     public static void main(String[] args) {
-        try (FileReader reader = new FileReader("input.json")){
+        try (FileReader reader = new FileReader("assign3_input.json")){
             Gson gson = new Gson();
             GraphCont cont = gson.fromJson(reader, GraphCont.class);
 

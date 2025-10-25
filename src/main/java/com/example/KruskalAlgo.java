@@ -47,7 +47,7 @@ public class KruskalAlgo {
             }
         }
         long endTime = System.nanoTime();
-        timeMs = (int) ((endTime - startTime) / 1000000);
+        timeMs = (endTime - startTime) / 1000000.0;
         return cost;
     }
 
