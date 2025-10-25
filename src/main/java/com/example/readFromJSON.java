@@ -53,15 +53,17 @@ public class readFromJSON {
 
                 int n = g.getNodes().size();
 
-                int cost = KruskalAlgo.kruskalMST(n, edgeInd);
-                List<Edge> mst = new KruskalAlgo().getMST();
-                int operations = new KruskalAlgo().getOC();
-                double timeMs = new KruskalAlgo().getTime();
+                KruskalAlgo kruskal = new KruskalAlgo();
+                int cost = kruskal.kruskalMST(n, edgeInd);
+                List<Edge> mst = kruskal.getMST();
+                int operations = kruskal.getOC();
+                double timeMs = kruskal.getTime();
 
-                int cost2 = PrimAlgo.primMst(n, edgeInd);
-                List<Edge> mst2 = new PrimAlgo().getMST();
-                int operations2 = new PrimAlgo().getOC();
-                double timeMs2 = new PrimAlgo().getTime();
+                PrimAlgo prim = new PrimAlgo();
+                int cost2 = prim.primMst(n, edgeInd);
+                List<Edge> mst2 = prim.getMST();
+                int operations2 = prim.getOC();
+                double timeMs2 = prim.getTime();
 
 
                 resultData kruskalResult = new resultData(mst, cost, operations, timeMs);
