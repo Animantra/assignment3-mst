@@ -28,6 +28,6 @@ In practice, Primâ€™s algorithm is preferred for dense networks, while Kruskalâ€
 
 
 References:
-https://www.geeksforgeeks.org/dsa/kruskals-minimum-spanning-tree-algorithm-greedy-algo-2/
-https://www.geeksforgeeks.org/dsa/prims-minimum-spanning-tree-mst-greedy-algo-5/
-https://habr.com/ru/companies/naumen/articles/228279/
+- https://www.geeksforgeeks.org/dsa/kruskals-minimum-spanning-tree-algorithm-greedy-algo-2/
+- https://www.geeksforgeeks.org/dsa/prims-minimum-spanning-tree-mst-greedy-algo-5/
+- https://habr.com/ru/companies/naumen/articles/228279/
