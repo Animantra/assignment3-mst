@@ -1,6 +1,8 @@
 <h1>Summary of input data and algorithm results<h1>
 
 ![dataset](plot.png)
+
+
 There shows exectution time, operations and total cost of MST
 To evaluate the performance of the Prim and Kruskal algorithms, three datasets with different sizes and graph data were tested(small, meduim and large)
 
