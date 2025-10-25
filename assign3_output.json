@@ -3,8 +3,8 @@
     {
       "graph_id": 1,
       "input_stats": {
-        "edges": 7,
-        "vertices": 5
+        "vertices": 5,
+        "edges": 7
       },
       "prim": {
         "mstEdges": [
@@ -31,7 +31,7 @@
         ],
         "totalCost": 16,
         "operationCount": 57,
-        "exTime": 0.5137
+        "execution_time_ms": 0.6014
       },
       "kruskal": {
         "mstEdges": [
@@ -58,14 +58,14 @@
         ],
         "totalCost": 16,
         "operationCount": 23,
-        "exTime": 2.0843
+        "execution_time_ms": 3.1908
       }
     },
     {
       "graph_id": 2,
       "input_stats": {
-        "edges": 5,
-        "vertices": 4
+        "vertices": 4,
+        "edges": 5
       },
       "prim": {
         "mstEdges": [
@@ -87,7 +87,7 @@
         ],
         "totalCost": 6,
         "operationCount": 41,
-        "exTime": 0.0088
+        "execution_time_ms": 0.0095
       },
       "kruskal": {
         "mstEdges": [
@@ -109,14 +109,14 @@
         ],
         "totalCost": 6,
         "operationCount": 17,
-        "exTime": 0.012
+        "execution_time_ms": 0.014
       }
     },
     {
       "graph_id": 3,
       "input_stats": {
-        "edges": 5,
-        "vertices": 5
+        "vertices": 5,
+        "edges": 5
       },
       "prim": {
         "mstEdges": [
@@ -143,7 +143,7 @@
         ],
         "totalCost": 13,
         "operationCount": 43,
-        "exTime": 0.008
+        "execution_time_ms": 0.0081
       },
       "kruskal": {
         "mstEdges": [
@@ -170,14 +170,14 @@
         ],
         "totalCost": 13,
         "operationCount": 23,
-        "exTime": 0.0083
+        "execution_time_ms": 0.0081
       }
     },
     {
       "graph_id": 4,
       "input_stats": {
-        "edges": 5,
-        "vertices": 4
+        "vertices": 4,
+        "edges": 5
       },
       "prim": {
         "mstEdges": [
@@ -199,7 +199,7 @@
         ],
         "totalCost": 6,
         "operationCount": 41,
-        "exTime": 0.0074
+        "execution_time_ms": 0.007
       },
       "kruskal": {
         "mstEdges": [
@@ -221,14 +221,14 @@
         ],
         "totalCost": 6,
         "operationCount": 17,
-        "exTime": 0.0071
+        "execution_time_ms": 0.0069
       }
     },
     {
       "graph_id": 5,
       "input_stats": {
-        "edges": 5,
-        "vertices": 5
+        "vertices": 5,
+        "edges": 5
       },
       "prim": {
         "mstEdges": [
@@ -255,7 +255,7 @@
         ],
         "totalCost": 14,
         "operationCount": 43,
-        "exTime": 0.0075
+        "execution_time_ms": 0.007
       },
       "kruskal": {
         "mstEdges": [
@@ -282,14 +282,14 @@
         ],
         "totalCost": 14,
         "operationCount": 22,
-        "exTime": 0.0094
+        "execution_time_ms": 0.0092
       }
     },
     {
       "graph_id": 6,
       "input_stats": {
-        "edges": 14,
-        "vertices": 10
+        "vertices": 10,
+        "edges": 14
       },
       "prim": {
         "mstEdges": [
@@ -341,7 +341,7 @@
         ],
         "totalCost": 36,
         "operationCount": 116,
-        "exTime": 0.0205
+        "execution_time_ms": 0.0211
       },
       "kruskal": {
         "mstEdges": [
@@ -393,14 +393,14 @@
         ],
         "totalCost": 36,
         "operationCount": 51,
-        "exTime": 0.0175
+        "execution_time_ms": 0.0175
       }
     },
     {
       "graph_id": 7,
       "input_stats": {
-        "edges": 15,
-        "vertices": 11
+        "vertices": 11,
+        "edges": 15
       },
       "prim": {
         "mstEdges": [
@@ -457,7 +457,7 @@
         ],
         "totalCost": 34,
         "operationCount": 125,
-        "exTime": 0.0254
+        "execution_time_ms": 0.0224
       },
       "kruskal": {
         "mstEdges": [
@@ -514,14 +514,14 @@
         ],
         "totalCost": 34,
         "operationCount": 54,
-        "exTime": 0.0162
+        "execution_time_ms": 0.017
       }
     },
     {
       "graph_id": 8,
       "input_stats": {
-        "edges": 16,
-        "vertices": 13
+        "vertices": 13,
+        "edges": 16
       },
       "prim": {
         "mstEdges": [
@@ -588,7 +588,7 @@
         ],
         "totalCost": 55,
         "operationCount": 136,
-        "exTime": 0.0182
+        "execution_time_ms": 0.0185
       },
       "kruskal": {
         "mstEdges": [
@@ -655,14 +655,14 @@
         ],
         "totalCost": 55,
         "operationCount": 66,
-        "exTime": 0.0232
+        "execution_time_ms": 0.0211
       }
     },
     {
       "graph_id": 9,
       "input_stats": {
-        "edges": 16,
-        "vertices": 12
+        "vertices": 12,
+        "edges": 16
       },
       "prim": {
         "mstEdges": [
@@ -724,7 +724,7 @@
         ],
         "totalCost": 41,
         "operationCount": 133,
-        "exTime": 0.0204
+        "execution_time_ms": 0.0201
       },
       "kruskal": {
         "mstEdges": [
@@ -786,14 +786,14 @@
         ],
         "totalCost": 41,
         "operationCount": 62,
-        "exTime": 0.0228
+        "execution_time_ms": 0.0227
       }
     },
     {
       "graph_id": 10,
       "input_stats": {
-        "edges": 17,
-        "vertices": 14
+        "vertices": 14,
+        "edges": 17
       },
       "prim": {
         "mstEdges": [
@@ -865,7 +865,7 @@
         ],
         "totalCost": 50,
         "operationCount": 144,
-        "exTime": 0.02
+        "execution_time_ms": 0.0252
       },
       "kruskal": {
         "mstEdges": [
@@ -937,14 +937,14 @@
         ],
         "totalCost": 50,
         "operationCount": 69,
-        "exTime": 0.0244
+        "execution_time_ms": 0.0263
       }
     },
     {
       "graph_id": 11,
       "input_stats": {
-        "edges": 22,
-        "vertices": 20
+        "vertices": 20,
+        "edges": 22
       },
       "prim": {
         "mstEdges": [
@@ -1046,7 +1046,7 @@
         ],
         "totalCost": 93,
         "operationCount": 191,
-        "exTime": 0.0343
+        "execution_time_ms": 0.049
       },
       "kruskal": {
         "mstEdges": [
@@ -1148,14 +1148,14 @@
         ],
         "totalCost": 93,
         "operationCount": 100,
-        "exTime": 0.0266
+        "execution_time_ms": 0.0399
       }
     },
     {
       "graph_id": 12,
       "input_stats": {
-        "edges": 24,
-        "vertices": 22
+        "vertices": 22,
+        "edges": 24
       },
       "prim": {
         "mstEdges": [
@@ -1267,7 +1267,7 @@
         ],
         "totalCost": 90,
         "operationCount": 210,
-        "exTime": 0.0242
+        "execution_time_ms": 0.0502
       },
       "kruskal": {
         "mstEdges": [
@@ -1379,14 +1379,14 @@
         ],
         "totalCost": 90,
         "operationCount": 110,
-        "exTime": 0.0306
+        "execution_time_ms": 0.0468
       }
     },
     {
       "graph_id": 13,
       "input_stats": {
-        "edges": 23,
-        "vertices": 21
+        "vertices": 21,
+        "edges": 23
       },
       "prim": {
         "mstEdges": [
@@ -1493,7 +1493,7 @@
         ],
         "totalCost": 87,
         "operationCount": 200,
-        "exTime": 0.0436
+        "execution_time_ms": 0.0855
       },
       "kruskal": {
         "mstEdges": [
@@ -1600,14 +1600,14 @@
         ],
         "totalCost": 87,
         "operationCount": 105,
-        "exTime": 0.0199
+        "execution_time_ms": 0.0388
       }
     },
     {
       "graph_id": 14,
       "input_stats": {
-        "edges": 25,
-        "vertices": 23
+        "vertices": 23,
+        "edges": 25
       },
       "prim": {
         "mstEdges": [
@@ -1724,7 +1724,7 @@
         ],
         "totalCost": 99,
         "operationCount": 219,
-        "exTime": 0.0311
+        "execution_time_ms": 0.0691
       },
       "kruskal": {
         "mstEdges": [
@@ -1841,14 +1841,14 @@
         ],
         "totalCost": 99,
         "operationCount": 114,
-        "exTime": 0.0335
+        "execution_time_ms": 0.0464
       }
     },
     {
       "graph_id": 15,
       "input_stats": {
-        "edges": 29,
-        "vertices": 26
+        "vertices": 26,
+        "edges": 29
       },
       "prim": {
         "mstEdges": [
@@ -1980,7 +1980,7 @@
         ],
         "totalCost": 110,
         "operationCount": 253,
-        "exTime": 0.0423
+        "execution_time_ms": 0.0642
       },
       "kruskal": {
         "mstEdges": [
@@ -2112,7 +2112,7 @@
         ],
         "totalCost": 110,
         "operationCount": 131,
-        "exTime": 0.0301
+        "execution_time_ms": 0.064
       }
     }
   ]

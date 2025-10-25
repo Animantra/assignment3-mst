@@ -15,7 +15,7 @@ public class readFromJSON {
         List<EdgeStr> mstEdges;
         int totalCost;
         int operationCount;
-        double exTime;
+        double execution_time_ms;
 
         public resultData(List<Edge> edges, int cost, int operations,double time){
             mstEdges = new ArrayList<>();
@@ -27,7 +27,7 @@ public class readFromJSON {
             }
             totalCost = cost;
             operationCount = operations;
-            exTime = time;
+            execution_time_ms = time;
 
         }
     }
