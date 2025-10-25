@@ -1,6 +1,8 @@
 <h1>Summary of input data and algorithm results<h1>
 
 ![dataset](plot.png)
+
+
 There shows exectution time, operations and total cost of MST
 To evaluate the performance of the Prim and Kruskal algorithms, three datasets with different sizes and graph data were tested(small, meduim and large)
 
@@ -26,6 +28,6 @@ In practice, Primâ€™s algorithm is preferred for dense networks, while Kruskalâ€
 
 
 References:
-https://www.geeksforgeeks.org/dsa/kruskals-minimum-spanning-tree-algorithm-greedy-algo-2/
-https://www.geeksforgeeks.org/dsa/prims-minimum-spanning-tree-mst-greedy-algo-5/
-https://habr.com/ru/companies/naumen/articles/228279/
+- https://www.geeksforgeeks.org/dsa/kruskals-minimum-spanning-tree-algorithm-greedy-algo-2/
+- https://www.geeksforgeeks.org/dsa/prims-minimum-spanning-tree-mst-greedy-algo-5/
+- https://habr.com/ru/companies/naumen/articles/228279/
