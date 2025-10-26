@@ -44,7 +44,7 @@ public class writeToJSON {
         Map<String, Object> wrapper = new HashMap<>();
         wrapper.put("results", resultGraphs);
 
-        try (FileWriter writer = new FileWriter("assign3(1s)_output.json")) {
+        try (FileWriter writer = new FileWriter("assign3_output.json")) {
             gson.toJson(wrapper, writer);
         } catch (Exception e) {
             e.printStackTrace();
