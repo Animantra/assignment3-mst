@@ -68,9 +68,9 @@ public class KruskalAlgo {
         private int[] rank;
 
         public DSU(int n){
-            parent = new int[n+1];
-            rank = new int[n+1];
-            for(int i = 1; i <= n; i++){
+            parent = new int[n];
+            rank = new int[n];
+            for(int i = 0; i < n; i++){
                 parent[i]=i;
                 rank[i]=0;
             }
